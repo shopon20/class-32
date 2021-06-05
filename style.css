@@ -1,0 +1,291 @@
+img{
+    max-width: 100%;
+}
+
+.header-menu{
+    background: rgba(10, 10, 10, 0.897);
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+.header-menu a{
+    color: white;
+}
+.menu-logo a {
+    line-height: 50px;
+    font-size: 40px;
+    line-height: 60px;
+}
+
+.menu-bar ul{
+    margin-bottom: 0;
+}
+.menu-bar ul li {
+    display: inline-block;
+    line-height: 60px;
+    position: relative;
+   
+}
+.menu-bar ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0 13px;
+    font-size: 17px;
+}
+.menu-bar ul li a::after{
+    content: "";
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: rgb(255, 255, 255);
+    visibility: hidden;
+    opacity: 0;
+    transform: scaleX(0);
+    transition: .4s;
+    transform-origin: left center;
+}
+.menu-bar ul li:hover a::after{
+    visibility: visible;
+    opacity: 1;
+    transform: scaleX(1);
+}
+/* end header */
+
+
+.home-section{
+    background: url(./img/hero-bg.jpg) no-repeat;
+    background-size: cover;
+    padding: 320px 0;
+    background-attachment: fixed;
+
+}
+/* end home */
+
+.progress{
+    margin-top: 15px;
+}
+
+.about-right-section .faka{
+    height: 3px;
+    width: 100px;
+    background: #0078ff;
+}
+.about-right-section p{
+    font-size: 20px;
+}
+/* end about section */
+
+.service-icon {
+    height: 100px;
+    width: 100px;
+    background: #fff;
+    color: #000;
+    border: 7px solid #0078ff;
+    border-radius: 50%;
+    margin: auto;
+    transition: .5s;
+    
+}
+.service-icon i {
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.service-content:hover .service-icon{
+    background: #0078ff;
+    color: white;
+    border: 7px solid #8cbdf5;
+}
+
+.service-bottom-icon{
+    height: 80px;
+    width: 80px;
+    background: #fff;
+    color: #000;
+    border: 7px solid #cde1f8;
+    border-radius: 50%;
+    margin: auto;
+    transition: .5s;
+    
+}
+
+.service-bottom-icon i {
+    font-size: 30px;
+    margin: 16px 20px;
+}
+
+.service-bottom-section{
+    background: url(./img/post-3.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1;
+   
+}
+.service-bottom-section h2{
+    font-size: 50px;
+}
+.service-bottom-section::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background:rgba(58, 142, 238, 0.829) ;
+    z-index: -1;
+}
+/* end service */
+
+
+.faka-3{
+    height: 3px;
+    width: 50px;
+    background: #0078ff;
+    margin: auto;
+}
+.text{
+    color: #0078ff;
+}
+.work-section-img {
+    overflow: hidden;
+    transition: .5s;
+}
+.work-section-img img {
+    transition: .5s;
+}
+
+.work:hover .work-section-img img{
+    transform: scale(1.5);
+}
+.work-section-text{
+    position: relative;
+}
+.work-section-text .plus {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid #0078ff;
+    position: absolute;
+    top: 35%;
+    left: 75%;
+}
+.plus h5{
+    font-size: 50px;
+    margin: -13px 6px;
+    color: #0078ff;
+}
+
+/* end work section */
+
+
+.div-img img{
+    border-radius: 50%;
+}
+.ttt{
+    z-index: 6;
+}
+.ttt h5{
+    font-size: 30px;
+}
+.ttt p{
+    font-size: 20px;
+}
+.carousel-inner{
+    position: relative;
+    z-index: 3;
+}
+.carousel-inner::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    background:#2083f5c2 ;
+    background-blend-mode: multiply;
+}
+/* end banner-2 */
+
+.line{
+	width: 40px;
+	height: 5px;
+	background-color: #0078ff;
+	margin: 0 auto;
+} 
+.m1 {
+	margin-top: -15px;
+	background: rgb(96, 96, 250);
+	color: #fff;
+	padding: 6px;
+	border-radius: 10%;
+	font-size: 14px;
+	display: inline;
+	width: 80px;
+	text-align: center;
+	margin-left: 37%;
+}
+.a{
+	width: 32px;
+	height: 32px;
+	margin-right: 4px;
+	overflow: hidden;
+}
+.bi{
+    float: right;
+   
+
+}
+.contact{
+    background:url(./img/overlay-bg.jpg);
+    background-attachment: fixed;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+.over {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	padding: 0;
+	height: 589px;
+	width: 100%;
+	opacity: .7;
+	background-color: #0078ff;
+    z-index: -1;
+}
+.j5{
+    z-index: 9;
+    overflow: hidden;
+}
+.line1{
+	width: 115px;
+	height: 5px;
+	background-color: #0078ff;
+	margin:20px 0px ;
+} 
+.b1{
+    margin-left: 100px;
+    width: 120px;
+    
+}
+.j1{
+    border-radius: 30px;
+
+}
+.j2{
+    font-size: 20px;
+}
+.j3 i{
+    border: 2px solid blue;
+    border-radius: 50%;
+    transition: .4s;
+
+}
+.j3 i:hover{
+   background: rgb(99, 99, 241);
+   color:#fff;
+}
